@@ -1,0 +1,75 @@
+<! doctype html>
+
+<html>
+
+<head>
+
+<script>
+function Addition(){
+var input1=parseInt(document.getElementById("num1").value);
+
+var input2=parseInt(document.getElementById("num2").value);
+
+document.getElementById("answer").value=input1 + input2;
+
+
+
+  }
+ function Subtract(){
+var input1=parseInt(document.getElementById("num1").value);
+
+var input2=parseInt(document.getElementById("num2").value);
+
+document.getElementById("answer").value=input1 - input2;
+}
+
+function Multiply(){
+var input1=parseInt(document.getElementById("num1").value);
+
+var input2=parseInt(document.getElementById("num2").value);
+
+document.getElementById("answer").value=input1 * input2;
+}
+
+
+
+
+
+
+
+</script>
+
+
+
+</head>
+   <body> 
+   <div>
+   <table border="1">
+   <tr><td><lable>Enter first number</label></td><td><input type="text" id="num1"></td></tr>
+   <tr><td><lable>Enter Second number</label></td><td><input type="text" id="num2"></td></tr>
+   <tr><td><lable>Your Answer is</label></td><td><input type="text" id="answer"></td></tr>
+   
+   <tr><td><input type="button" value="Add" id="button1" onclick="Addition();">
+   
+   <input type="button" value="subtract" id="button2" onclick="Subtract();">
+   
+   <input type="button" value="Multiply" id="button2" onclick="Multiply();">
+  </td></tr>
+   
+   </table>
+   
+   
+   
+   
+   </div>
+
+
+</body>
+
+
+
+
+
+
+</html>
+
