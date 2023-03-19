@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');/* Reset default browser styles */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "poppins",sans-serif;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	background: url(fun13.jpg);
+    background-size: cover;
+	background-position: center;
+
+
+}
+
+header{
+position: relative;
+top: 0;
+width: 100%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
